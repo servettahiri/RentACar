@@ -4,7 +4,13 @@
     {
         public string Marka { get; set; }
         public string Model { get; set; }
-        public int Kubikaza { get; set; }
+        //snaga i kubikaza
         public int Snaga { get; set; }
+        public int kubikaza { get; set; }
+        //broj sedista
+        public int Sedista { get; set; }
+        //karoserija
+        public string Karoserija { get; set; }
+        
     }
 }
